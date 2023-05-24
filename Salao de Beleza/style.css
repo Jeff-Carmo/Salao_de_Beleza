@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Logo Principal */
+.logoprincipal{
+    border: 4px solid #ff00d4;
+    background-color: #F8ABEB;
+    height: 400px
+}
+
+.logoprincipal img{
+    display: block;
+    margin: auto auto;
+    
+}
+
+/* Menu Horizontal */
+
+.menu-h{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 4px solid #ff00d4;
+    border-right: 4px solid #ff00d4;
+    border-bottom: 4px solid #ff00d4;
+    background-color: rgb(255, 27, 190); 
+    
+}
+
+.menu-h ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    font-size: 2em;
+    font-family: 'Great Vibes', cursive;
+    list-style: none;
+}
+
+.menu-h ul a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+}
+
+.menu-h ul a:hover{
+    color: whitesmoke;
+    background-color: black;
+     
+}
+
+.menu-h ul li:active{
+    transform: translateY(1px) translateX(1px);
+}
+
+
+.menu-h img{
+    float: right; 
+    width: 25px;
+    height: 25px; 
+    padding: 4px 10px;
+}
+
+.menu-h img:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+
+/* Meio */
+
+main{
+    border-left: 4px solid #ff00d4;
+    border-right: 4px solid #ff00d4;
+    border-bottom: 4px solid #ff00d4;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.imgtype3{ /* mais larga do que alta */
+    width: 250px;
+    height: 170px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 130px;
+    padding: 130px 20px 20px 20px;
+   
+}
+
+aside img{
+    border: 3px solid rgb(255, 27, 190);
+    
+}
+
+.article1{
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.7;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px;
+    
+    /* background-color: rgb(255, 27, 190); */
+    background-color: #F8ABEB;
+    border: 3px solid rgb(255, 27, 190);
+    
+}
+
+.article1 h1{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.article1 p{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1em;
+    
+}
+
+footer{
+    text-align: right;
+	font-size: 9pt;
+    font-family: arial;
+	height: 16px;
+    background-color: rgb(255, 27, 190);
+    border-left: 4px solid #ff00d4;
+    border-right: 4px solid #ff00d4;
+    border-bottom: 4px solid #ff00d4;
+    
+}
+
+/* Fim Index.Html */
+
+/* Procedimentos .Html */
+
+.container2{
+    display: grid;
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, #F8ABEB 60%);
+    grid-template-columns: 1fr 1fr;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #ff00d4;
+}
+
+.procedimentoimagem img{
+    display: block;
+    margin: 0 auto;
+    height: 330px;
+    box-shadow: 0px 0px 0px 3px rgb(255, 27, 190);
+    
+}
+
+.procedimentotexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.procedimentotexto h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.0rem;
+}
+
+.procedimentotexto p{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1em;
+}
+
+.container3{
+    display: grid;
+    background: linear-gradient(to right, #F8ABEB 0%, rgb(255, 255, 255)  80%);
+    grid-template-columns: 1fr 1fr;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #ff00d4;
+}
+
+/* Contatos .Html */
+
+.container4{
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, #F8ABEB 60%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(204, 129, 255) 80%);
+    padding: 15px;
+    box-shadow: 0px 0px 0px 3px rgb(255, 27, 190);
+       
+}
+
+.contato h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.0rem;
+}
+
+#endereço{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#email:hover{
+    background-color: #ffffff;
+}
+
+.contato figure{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.contato figure img{
+    width: 25px;
+    height: 25px;
+    padding: 5px 5px;
+    
+}
+
+.contato figure img:hover{
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.contato input{
+    width: 300px;
+}
+
+
+#mensagem{
+    height: 30px;
+}
+
+#submit{
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+}
+
+#submit:hover{
+ background-color: rgb(16, 199, 16);
+ transition: 0.6s;
+ 
+}
